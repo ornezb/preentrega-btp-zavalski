@@ -1,0 +1,37 @@
+.formcontacto{
+    margin-left: 400px !important;
+    width: 420px;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    border: solid $colordefondo 3px;
+    border-radius: 5px;
+    color: $colorletra;
+    @media (max-width: 640px){
+        margin-left: 0px !important;
+        margin: 0px !important;
+    }
+}
+
+.formcontacto > label{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+
+.enviar{
+        margin: 10px;
+        background-color:plum;
+        border: 1px solid;
+        width: 300px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+.formcontacto .enviar:hover, form .enviar:focus{
+    background-color:palevioletred;
+    color: white;
+    transition: background-color 1s ease-out;
+}

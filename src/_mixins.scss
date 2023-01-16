@@ -1,0 +1,16 @@
+@mixin size-btn {
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    &:hover{
+        background-color: palevioletred;
+        color: white;
+        transition: background-color 1s ease-out;
+    }
+}
+@mixin fontstyle{
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+   

@@ -1,0 +1,11 @@
+/*contacto*/
+.ubicacion{
+    display:flex;
+    flex-wrap: wrap;
+}
+.ubicacion div{
+    margin:10px;
+    border-radius: 5px;
+    border: 4px solid $colordefondo;
+    text-align: center;
+}
