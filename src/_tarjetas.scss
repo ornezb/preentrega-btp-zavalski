@@ -1,3 +1,15 @@
+/*index*/
+.card{
+    border-radius: 10px !important;
+    box-shadow: rgb(0 0 0 / 50%) 0px 3px 8px !important;
+}
+.masv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+}
+
 /*productos*/
 .cardp{
     margin-left: 130px !important;

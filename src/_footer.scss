@@ -2,4 +2,13 @@
     background-color: $colordefondo !important;
     color: $colorletra !important;
     font-size: 18px !important; 
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.iconosfooter1{
+    align-items: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
 }

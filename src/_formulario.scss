@@ -35,3 +35,15 @@
     color: white;
     transition: background-color 1s ease-out;
 }
+
+.formapuntate{
+        align-items: center;
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        flex-direction: column;
+        border-radius: 6px;
+        border: 3px grey solid;
+        color:$colorletra;
+        background-color: lightgoldenrodyellow;
+      }
