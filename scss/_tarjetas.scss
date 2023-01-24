@@ -6,7 +6,7 @@
 .masv{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 5px;
     align-items: center;
 }
 
@@ -18,12 +18,15 @@
     text-align: center;
 }
 .cajap{
-    @extend %tarjeta;
     @media (max-width:640px){
         display: flex !important;
         flex-direction: column !important;
         align-items: start !important;
+        margin-left: 0px !important;
     }
+    @media (max-width: 450px){
+          width:300px !important;
+      } 
 }
 
 .btn{
@@ -38,10 +41,12 @@
 .cardp > img:hover{
     transform: scale(2,1);
 }
+button{
+    padding: 10px;
+    border-radius: 15px
+  }  
 button:hover, button:focus, .btn:hover, form .btn:focus{
-    background-color:palevioletred;
-    color: white;
-    transition: background-color 1s ease-out;
+    @extend %hover;
 }
 .mayuda{
     display: inline-block;
@@ -50,6 +55,9 @@ button:hover, button:focus, .btn:hover, form .btn:focus{
     gap: 10px;
     border: 2px solid $colorletra;
     border-radius: 10px;
+    @media (max-width: 450px){
+         padding: 0px;
+    }
 }
 .mainayuda{
     display: inline-block;
@@ -59,3 +67,9 @@ button:hover, button:focus, .btn:hover, form .btn:focus{
     border: 2px solid $colorletra;
     border-radius: 10px;
 }
+
+@media (max-width: 450px){
+    .cardp{
+      width:300px !important;
+    }
+  }

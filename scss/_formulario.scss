@@ -11,6 +11,12 @@
         margin-left: 0px !important;
         margin: 0px !important;
     }
+    @media (max-width: 450px){
+          width: 350px;
+          margin: 5px !important;
+          padding: 10px !important;
+    }
+      
 }
 
 .formcontacto > label{
@@ -19,9 +25,11 @@
     gap: 5px;
     width: 300px;
     margin-left: 40px;
+    @media (max-width: 450px){
+          margin-left: 10px;
+    }
+      
 }
-
-
 .enviar{
         margin: 10px;
         background-color:plum;
@@ -31,12 +39,11 @@
         border-radius: 10px;
     }
 .formcontacto .enviar:hover, form .enviar:focus{
-    background-color:palevioletred;
-    color: white;
-    transition: background-color 1s ease-out;
+    @extend %hover;
 }
 
 .formapuntate{
+        padding: 10px;
         align-items: center;
         display: flex;
         margin-top: 60px;
@@ -46,4 +53,12 @@
         border: 3px grey solid;
         color:$colorletra;
         background-color: lightgoldenrodyellow;
+        > .checkindex{
+            margin: 5px;
+          }
+        @media (max-width: 640px){
+          display: flex !important;
+          flex-direction: column !important;
+          align-items: start !important;
+        }
       }

@@ -1,0 +1,24 @@
+.navbar{
+    background-color: $colordefondo !important;
+    position: relative !important;
+}
+.fbuscar{
+    text-decoration: none;
+    border: none;
+    @media (max-width:640px){
+         display: none !important;
+        }      
+     .btn{
+        color: $colorletra !important;
+        &hover{
+        @extend %hover; 
+      }
+      }
+}
+.nav-link, .nav-linknav{
+    color:$colorletra !important;
+
+}
+.fa-bars{
+    display: none;
+}

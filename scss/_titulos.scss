@@ -1,0 +1,29 @@
+h1, h2{
+    @include fontstyle();
+    color: $colorletra;
+    margin: 20px 0px 10px;
+    padding: 5px;
+    @media (max-width: 640px){
+      text-align: start;
+      margin: 20px 0px 10px;
+    }
+}
+.pcontacto{
+  padding: 20px !important;
+}
+.carouselExample{
+  position: relative !important;
+}
+.indexh1{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translateX(-50%) translateY(-50%) !important;
+  color:palevioletred !important;
+}
+.pcontacto{
+  padding: 20px !important;
+}
+header > div > img{
+  height: 300px;
+}

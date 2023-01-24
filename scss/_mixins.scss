@@ -1,7 +1,6 @@
 @mixin size-btn {
+    padding: 10px;
     border-radius: 15px;
-    height: 40px;
-    width: 150px;
     &:hover{
         background-color: palevioletred;
         color: white;
